@@ -1,0 +1,183 @@
+!main chain atoms
+P	P1	P2	P3
+!sidechain branch points
+P1
+!connectivity
+C	H	H1
+H
+H1
+C1	H2	H3
+H2
+H3
+C2	H4	H5	H6
+H4
+H5
+H6
+C3	H7	H8
+H7
+H8
+C4	C3	H9	H10	H11
+H9
+H10
+H11
+C5	H12	H13
+H12
+H13
+C6	C5	H14	H15	H16
+H14
+H15
+H16
+C7	H17	H18
+H17
+H18
+C8	C7	H19	H20	H21
+H19
+H20
+H21
+C9	H22	H23
+H22
+H23
+C10	C9	H24	H25	H26
+H24
+H25
+H26
+C11	H27	H28
+H27
+H28
+C12	H29	H30
+H29
+H30
+C13	H31	H32	H33
+H31
+H32
+H33
+C14	H34	H35
+H34
+H35
+C15	C14	H36	H37	H38
+H36
+H37
+H38
+C16	H39	H40
+H39
+H40
+C17	C16	H41	H42	H43
+H41
+H42
+H43
+C18	H44	H45
+H44
+H45
+C19	C18	H46	H47	H48
+H46
+H47
+H48
+C20	H49	H50
+H49
+H50
+C21	C20	H51	H52	H53
+H51
+H52
+H53
+H54	RH
+H55	RH
+N	C	C1	C2
+N1	C11	C12	C13
+P	C	C7	C9
+P1	C1	C3	C5
+P2	C11	C18	C20
+P3	C12	C16	C14	
+RH	P	P1	P2	P3
+!defined dihedral angles
+!atom types
+# column 1: atom name
+# column 2: AMBER all atom atomtype
+# column 3:	AMBER united atom atomtype
+# column 4: SUMMA atom type
+# column 5: SUMMA environment type
+# column 6: six-atom solvation type
+C		CT		-		-		-		-
+H		HC		-		-		-		-
+H1		HC		-		-		-		-
+C1		CT		-		-		-		-
+H2		HC		-		-		-		-
+H3		HC		-		-		-		-
+C2		CT		-		-		-		-
+H4		HC		-		-		-		-
+H5		HC		-		-		-		-
+H6		HC		-		-		-		-
+C3		CT		-		-		-		-
+H7		HC		-		-		-		-
+H8		HC		-		-		-		-
+C4		C4		-		-		-		-
+H9		HC		-		-		-		-
+H10		HC		-		-		-		-
+H11		HC		-		-		-		-
+C5		CT		-		-		-		-
+H12		HC		-		-		-		-
+H13		HC		-		-		-		-
+C6		CT		-		-		-		-
+H14		HC		-		-		-		-
+H15		HC		-		-		-		-
+H16		HC		-		-		-		-
+C7		CT		-		-		-		-
+H17		HC		-		-		-		-
+H18		HC		-		-		-		-
+C8		CT		-		-		-		-
+H19		HC		-		-		-		-
+H20		HC		-		-		-		-
+H21		HC		-		-		-		-
+C9		CT		-		-		-		-
+H22		HC		-		-		-		-
+H23		HC		-		-		-		-
+C10		CT		-		-		-		-
+H24		HC		-		-		-		-
+H25		HC		-		-		-		-
+H26		HC		-		-		-		-
+C11		CT		-		-		-		-
+H27		HC		-		-		-		-
+H28		HC		-		-		-		-
+C12		CT		-		-		-		-
+H29		HC		-		-		-		-
+H30		HC		-		-		-		-
+C13		CT		-		-		-		-
+H31		HC		-		-		-		-
+H32		HC		-		-		-		-
+H33		HC		-		-		-		-
+C14		HC		-		-		-		-
+H34		CT		-		-		-		-
+H35		HC		-		-		-		-
+C15		CT		-		-		-		-
+H36		HC		-		-		-		-
+H37		HC		-		-		-		-
+H38		HC		-		-		-		-
+C16		CT		-		-		-		-
+H39		HC		-		-		-		-
+H40		HC		-		-		-		-
+C17		CT		-		-		-		-
+H41		HC		-		-		-		-
+H42		HC		-		-		-		-
+H43		HC		-		-		-		-
+C18		HC		-		-		-		-
+H44		HC		-		-		-		-
+H45		HC		-		-		-		-
+C19		CT		-		-		-		-
+H46		HC		-		-		-		-
+H47		HC		-		-		-		-
+H48		HC		-		-		-		-
+C20		HC		-		-		-		-
+H49		HC		-		-		-		-
+H50		HC		-		-		-		-
+C21		HC		-		-		-		-
+H51		HC		-		-		-		-
+H52		HC		-		-		-		-
+H53		HC		-		-		-		-
+H54		HC		-		-		-		-
+H55		HC		-		-		-		-
+N		NT		-		-		-		-
+N1		NT		-		-		-		-
+P		P 		-		-		-		-
+P1		P 		-		-		-		-
+P2		P 		-		-		-		-
+P3		P 		-		-		-		-
+RH		RH		-		-		-		-
