@@ -11,7 +11,7 @@ export MAKE = make
 
 SHELL = /bin/sh
 
-TARGETS = protEnergy protOpt z_aligner protMover protShaper
+TARGETS = protEnergy protOpt z_aligner protMover
 
 .SUFFIXES: .cc .o .h .a
 
