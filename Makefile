@@ -11,7 +11,7 @@ export MAKE = make
 
 SHELL = /bin/sh
 
-TARGETS = example
+TARGETS = protEnergy protOpt z_aligner protMover
 
 .SUFFIXES: .cc .o .h .a
 
@@ -55,9 +55,22 @@ libprotcad.a : $(LIB_CC_OBJECTS)
 	cd $(OBJDIR) && ar rv libprotcad.a $?
 	cd $(OBJDIR) && ranlib libprotcad.a
 
-example : libprotcad.a example.cc
+protOpt : libprotcad.a protOpt.cc
 	cd $(OBJDIR) && $(CXX) $(CFLAGS) $^ -o $@ $(INC_BASE) $(LIB_BASE)
 	cd $(OBJDIR) && mv $@ $(BINDIR)
+
+protEnergy : libprotcad.a protEnergy.cc
+	cd $(OBJDIR) && $(CXX) $(CFLAGS) $^ -o $@ $(INC_BASE) $(LIB_BASE)
+	cd $(OBJDIR) && mv $@ $(BINDIR)
+
+z_aligner : libprotcad.a z_aligner.cc
+	cd $(OBJDIR) && $(CXX) $(CFLAGS) $^ -o $@ $(INC_BASE) $(LIB_BASE)
+	cd $(OBJDIR) && mv $@ $(BINDIR)
+
+protMover : libprotcad.a protMover.cc
+	cd $(OBJDIR) && $(CXX) $(CFLAGS) $^ -o $@ $(INC_BASE) $(LIB_BASE)
+	cd $(OBJDIR) && mv $@ $(BINDIR)
+
 
 $(LIB_CC_OBJECTS): %.o: %.cc %.h
 	$(CXX) -c $(CFLAGS) $(INC_BASE) $< -o $@
